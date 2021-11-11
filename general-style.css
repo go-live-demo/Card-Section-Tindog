@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* remove default margins */
+body,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+h1 {
+  margin: 5rem 0;
+  text-align: center;
+}
+
+/* set body defaults */
+body {
+  line-height: 1.5;
+  /* font-family: ; */
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+/* make images easy to work with */
+img,
+picture {
+  display: block;
+  max-width: 100%;
+}
+
+/* inherit font for inputs & buttons */
+input,
+button,
+select,
+textarea {
+  font: inherit;
+}

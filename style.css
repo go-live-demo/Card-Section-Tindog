@@ -1,0 +1,58 @@
+/* Colors */
+/*
+#ef8172
+#212529
+#343a40;
+#6c757d
+*/
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* ---- Card Section ---- */
+.split-evenly {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.split-evenly > * {
+  width: 100%;
+  flex-grow: 1;
+}
+.card-section {
+  font-family: 'Montserrat', sans-serif;
+  width: 70vw;
+  text-align: center;
+}
+
+@media (min-width: 978px) {
+  .card-section {
+    flex-direction: row;
+    gap: 0;
+  }
+}
+
+/* Card Component */
+.card {
+  padding: 0 3rem 1rem;
+}
+.card__header__icon {
+  font-size: 4rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.card__header__title {
+  color: #212529;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.card__description {
+  margin-top: 10px;
+  color: #6c757d;
+}
